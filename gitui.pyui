@@ -25,7 +25,7 @@
         }
       },
       {
-        "selected" : true,
+        "selected" : false,
         "frame" : "{{6, 276}, {311, 198}}",
         "class" : "TableView",
         "nodes" : [
@@ -36,18 +36,18 @@
           "data_source_items" : "UNTRACKED\n  test.py    2014-11-29 10:30  1 kB\nMODIFIED UNSTAGED\n  modified.py  2014-11-29 11:15 1 kB\nSTAGED\n  modified.py.  2014-11-29 11:15 1 kB     MOD\n  added.py 2014-11-29 11:15 1 kB ADDED\nUNMODIFIED\n  somefile.py 2014-11-29 11:15 1 kB",
           "enabled" : true,
           "name" : "tableview1",
-          "uuid" : "BE5DB955-3F49-4C36-B63C-9DE4BF1C496C",
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "data_source_number_of_lines" : 5,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "data_source_font_size" : 12,
+          "data_source_delete_enabled" : true,
+          "uuid" : "BE5DB955-3F49-4C36-B63C-9DE4BF1C496C",
           "row_height" : 31,
-          "data_source_delete_enabled" : true
+          "data_source_font_size" : 12
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 149}, {87, 24}}",
+        "frame" : "{{11, 156}, {109, 24}}",
         "class" : "Button",
         "nodes" : [
 
@@ -67,33 +67,33 @@
       },
       {
         "selected" : false,
-        "frame" : "{{198, 0}, {102, 20}}",
+        "frame" : "{{198, 0}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Remote",
           "alignment" : "left",
           "uuid" : "DA34DF57-04B9-46CD-9E07-944351ADE0D7",
-          "font_size" : 12,
-          "name" : "label2"
+          "name" : "label2",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{20, 189}, {100, 33}}",
+        "frame" : "{{10, 189}, {115, 30}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "LR",
-          "image_name" : "ionicons-arrow-left-a-32",
+          "font_size" : 15,
           "enabled" : true,
           "title" : "Pull",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
@@ -101,20 +101,20 @@
           "corner_radius" : 5,
           "uuid" : "06E2FDC6-E17F-4A8C-8078-5C05580E4F47",
           "background_color" : "RGBA(0.928571,0.928571,0.928571,1.000000)",
-          "font_size" : 15,
-          "name" : "pull"
+          "name" : "pull",
+          "image_name" : "ionicons-arrow-left-a-32"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{116, 191}, {80, 31}}",
+        "frame" : "{{112, 189}, {115, 30}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "LR",
-          "image_name" : "ionicons-arrow-right-a-32",
+          "font_size" : 15,
           "enabled" : true,
           "title" : "Push",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
@@ -122,8 +122,8 @@
           "corner_radius" : 5,
           "uuid" : "3B4A4005-603F-4420-8898-23988BEEA7D8",
           "background_color" : "RGBA(0.928571,0.928571,0.928571,1.000000)",
-          "font_size" : 15,
-          "name" : "push"
+          "name" : "push",
+          "image_name" : "ionicons-arrow-right-a-32"
         }
       },
       {
@@ -146,53 +146,53 @@
       },
       {
         "selected" : false,
-        "frame" : "{{198, 46}, {102.5, 20}}",
+        "frame" : "{{198, 47}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Branch",
+          "text" : "Remote Branch",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "font_size" : 12,
-          "name" : "label3"
+          "name" : "label3",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{11, 6}, {173, 32}}",
+        "frame" : "{{11, 16}, {173, 32}}",
         "class" : "View",
         "nodes" : [
 
         ],
         "attributes" : {
-          "flex" : "",
+          "uuid" : "337FCC51-AA8E-492E-B3D1-7A8A75AD2EE8",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "custom_class" : "FilteredDirDropdown",
           "name" : "repo",
-          "uuid" : "337FCC51-AA8E-492E-B3D1-7A8A75AD2EE8"
+          "flex" : ""
         }
       },
       {
         "selected" : false,
-        "frame" : "{{6, 63}, {176, 31}}",
+        "frame" : "{{13, 67}, {173, 32}}",
         "class" : "View",
         "nodes" : [
 
         ],
         "attributes" : {
-          "flex" : "",
+          "uuid" : "6B65F149-985A-4A19-A9D5-43F07C2DB0DB",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "custom_class" : "DropdownView",
           "name" : "branch",
-          "uuid" : "6B65F149-985A-4A19-A9D5-43F07C2DB0DB"
+          "flex" : ""
         }
       },
       {
@@ -203,12 +203,12 @@
 
         ],
         "attributes" : {
-          "flex" : "WL",
+          "uuid" : "AD15CB1C-8FAC-4232-A1F2-B5109C9B86C5",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "custom_class" : "DropdownView",
           "name" : "remote",
-          "uuid" : "AD15CB1C-8FAC-4232-A1F2-B5109C9B86C5"
+          "flex" : "WL"
         }
       },
       {
@@ -232,40 +232,40 @@
       },
       {
         "selected" : false,
-        "frame" : "{{11, 109}, {153, 32}}",
+        "frame" : "{{11, 120}, {153, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 17,
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "FD9EEF2E-D2DB-47A0-8A89-19EE4BEB393D",
           "alignment" : "left",
-          "font_size" : 17,
-          "name" : "user"
+          "name" : "user",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{177.5, 109}, {123, 32}}",
+        "frame" : "{{178, 120}, {123, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 17,
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "2334C471-DC61-4204-90C7-21D1FA418874",
           "alignment" : "left",
-          "font_size" : 17,
-          "name" : "email"
+          "name" : "email",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
@@ -277,14 +277,14 @@
         ],
         "attributes" : {
           "flex" : "W",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 17,
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "26B553C2-AAED-47A4-8FB6-DEE09327806F",
           "alignment" : "left",
-          "font_size" : 17,
-          "name" : "message"
+          "name" : "message",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
@@ -296,19 +296,19 @@
         ],
         "attributes" : {
           "flex" : "W",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Commit message",
           "alignment" : "left",
           "uuid" : "A6806490-D7E0-4ED5-97DF-5E538265B46C",
-          "font_size" : 12,
-          "name" : "label6"
+          "name" : "label6",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{197, 149}, {59, 24}}",
+        "frame" : "{{224, 156}, {76, 24}}",
         "class" : "Button",
         "nodes" : [
 
@@ -328,7 +328,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{101, 149}, {88, 24}}",
+        "frame" : "{{128, 156}, {88, 24}}",
         "class" : "Button",
         "nodes" : [
 
@@ -348,7 +348,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{240, 149}, {48, 24}}",
+        "frame" : "{{253, 156}, {61, 24}}",
         "class" : "Button",
         "nodes" : [
 
@@ -368,7 +368,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{234, 191}, {80, 31}}",
+        "frame" : "{{270, 189}, {100, 30}}",
         "class" : "Button",
         "nodes" : [
 
@@ -385,15 +385,91 @@
           "font_size" : 18,
           "name" : "log"
         }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{11, 47}, {104, 20}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WL",
+          "name" : "label branch",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Branch",
+          "alignment" : "left",
+          "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
+          "font_size" : 12,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{11, 1}, {104, 15}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WL",
+          "name" : "label repo",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Repo",
+          "alignment" : "left",
+          "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
+          "font_size" : 12,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{13, 100}, {104, 20}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WL",
+          "name" : "label user",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "User",
+          "alignment" : "left",
+          "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
+          "font_size" : 12,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{178, 100}, {104, 20}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WL",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Email",
+          "alignment" : "left",
+          "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
+          "name" : "label email",
+          "font_size" : 12
+        }
       }
     ],
     "attributes" : {
-      "flex" : "",
+      "name" : "",
       "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "name" : "",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+      "flex" : ""
     }
   }
 ]
