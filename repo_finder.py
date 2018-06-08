@@ -1,4 +1,7 @@
 import dropdown, os, fnmatch
+from config import priority_list
+
+
 class FilteredDirDropdown(dropdown.DropdownView):
     def __init__(self,frame=(0,0,300,32),name='dropdown', filter='*',base=os.path.expanduser('~/Documents'), exclude='.Trash'):
         self.frame=frame
@@ -12,6 +15,11 @@ class FilteredDirDropdown(dropdown.DropdownView):
 
         
     def path_generator(self):
+        for dir in priority_list:
+            yield dir
+        
+        raise StopIteration()
+        
         for rootpath,dirs,_ in os.walk(self.base):
             for d in dirs:
                 if self.abort():
