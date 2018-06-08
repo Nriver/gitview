@@ -36,11 +36,11 @@
           "data_source_items" : "UNTRACKED\n  test.py    2014-11-29 10:30  1 kB\nMODIFIED UNSTAGED\n  modified.py  2014-11-29 11:15 1 kB\nSTAGED\n  modified.py.  2014-11-29 11:15 1 kB     MOD\n  added.py 2014-11-29 11:15 1 kB ADDED\nUNMODIFIED\n  somefile.py 2014-11-29 11:15 1 kB",
           "enabled" : true,
           "name" : "tableview1",
-          "data_source_number_of_lines" : 5,
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "data_source_delete_enabled" : true,
           "uuid" : "BE5DB955-3F49-4C36-B63C-9DE4BF1C496C",
+          "data_source_number_of_lines" : 5,
+          "data_source_delete_enabled" : true,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "row_height" : 31,
           "data_source_font_size" : 12
         }
@@ -67,20 +67,20 @@
       },
       {
         "selected" : false,
-        "frame" : "{{198, 0}, {104, 20}}",
+        "frame" : "{{201, 0}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "font_size" : 12,
+          "name" : "label2",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Remote",
           "alignment" : "left",
           "uuid" : "DA34DF57-04B9-46CD-9E07-944351ADE0D7",
-          "name" : "label2",
+          "font_size" : 12,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -93,7 +93,7 @@
         ],
         "attributes" : {
           "flex" : "LR",
-          "font_size" : 15,
+          "name" : "pull",
           "enabled" : true,
           "title" : "Pull",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
@@ -101,7 +101,7 @@
           "corner_radius" : 5,
           "uuid" : "06E2FDC6-E17F-4A8C-8078-5C05580E4F47",
           "background_color" : "RGBA(0.928571,0.928571,0.928571,1.000000)",
-          "name" : "pull",
+          "font_size" : 15,
           "image_name" : "ionicons-arrow-left-a-32"
         }
       },
@@ -114,7 +114,7 @@
         ],
         "attributes" : {
           "flex" : "LR",
-          "font_size" : 15,
+          "name" : "push",
           "enabled" : true,
           "title" : "Push",
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
@@ -122,7 +122,7 @@
           "corner_radius" : 5,
           "uuid" : "3B4A4005-603F-4420-8898-23988BEEA7D8",
           "background_color" : "RGBA(0.928571,0.928571,0.928571,1.000000)",
-          "name" : "push",
+          "font_size" : 15,
           "image_name" : "ionicons-arrow-right-a-32"
         }
       },
@@ -146,20 +146,20 @@
       },
       {
         "selected" : false,
-        "frame" : "{{198, 47}, {104, 20}}",
+        "frame" : "{{201, 47}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "font_size" : 12,
+          "name" : "label3",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Remote Branch",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "name" : "label3",
+          "font_size" : 12,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -239,13 +239,13 @@
         ],
         "attributes" : {
           "flex" : "",
-          "font_size" : 17,
+          "name" : "user",
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "FD9EEF2E-D2DB-47A0-8A89-19EE4BEB393D",
           "alignment" : "left",
-          "name" : "user",
+          "font_size" : 17,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -258,13 +258,13 @@
         ],
         "attributes" : {
           "flex" : "",
-          "font_size" : 17,
+          "name" : "email",
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "2334C471-DC61-4204-90C7-21D1FA418874",
           "alignment" : "left",
-          "name" : "email",
+          "font_size" : 17,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -277,13 +277,13 @@
         ],
         "attributes" : {
           "flex" : "W",
-          "font_size" : 17,
+          "name" : "message",
           "enabled" : true,
           "border_style" : 3,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "26B553C2-AAED-47A4-8FB6-DEE09327806F",
           "alignment" : "left",
-          "name" : "message",
+          "font_size" : 17,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -296,13 +296,13 @@
         ],
         "attributes" : {
           "flex" : "W",
-          "font_size" : 12,
+          "name" : "label6",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Commit message",
           "alignment" : "left",
           "uuid" : "A6806490-D7E0-4ED5-97DF-5E538265B46C",
-          "name" : "label6",
+          "font_size" : 12,
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -388,20 +388,20 @@
       },
       {
         "selected" : false,
-        "frame" : "{{11, 47}, {104, 20}}",
+        "frame" : "{{10, 47}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "name" : "label branch",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Branch",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "font_size" : 12,
+          "name" : "label branch",
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
@@ -414,38 +414,38 @@
         ],
         "attributes" : {
           "flex" : "WL",
-          "name" : "label repo",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Repo",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "font_size" : 12,
+          "name" : "label repo",
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
-        "selected" : false,
-        "frame" : "{{13, 100}, {104, 20}}",
+        "selected" : true,
+        "frame" : "{{11, 100}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WL",
-          "name" : "label user",
+          "font_size" : 12,
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "User",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "font_size" : 12,
+          "name" : "label user",
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{178, 100}, {104, 20}}",
+        "frame" : "{{151, 100}, {104, 20}}",
         "class" : "Label",
         "nodes" : [
 
@@ -458,8 +458,8 @@
           "text" : "Email",
           "alignment" : "left",
           "uuid" : "39B1A0AC-E9FE-4FF7-8AA0-FE2BF26E84E9",
-          "name" : "label email",
-          "font_size" : 12
+          "font_size" : 12,
+          "name" : "label email"
         }
       }
     ],
